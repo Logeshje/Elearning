@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "file:///F:/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.elearning.utility.ITestListenerClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.elearning.testcases.LoginTestDataDrivenTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
